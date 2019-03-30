@@ -24,6 +24,7 @@
 <!-- BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,  -->
 <!-- OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN -->
 <!-- IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.                          -->
+<!--                            MODIFY BY timlu85                           -->
 <mixer>
     <!-- These are the initial mixer settings -->
     <ctl name="Voice Rx Device Mute" id="0" value="0" />
@@ -2020,14 +2021,16 @@
   </path>
 <!--#endif-->
     <path name="speaker-mono">
- <!--         <ctl name="COMP7 Switch" value="1" /> -->
- <!--         <ctl name="SLIM RX0 MUX" value="AIF_MIX1_PB" /> -->
- <!--        <ctl name="SLIM_0_RX Channels" value="One" /> -->
- <!--         <ctl name="RX INT7_1 MIX1 INP0" value="RX0" /> -->
- <!--        <ctl name="SpkrLeft COMP Switch" value="1" /> -->
- <!--        <ctl name="SpkrLeft BOOST Switch" value="1" /> -->
- <!--        <ctl name="SpkrLeft VISENSE Switch" value="1" /> -->
- <!--        <ctl name="SpkrLeft SWR DAC_Port Switch" value="1" /> -->
+        <ctl name="SLIM RX0 MUX" value="AIF1_PB" />
+		<ctl name="CDC_IF RX0 MUX" value="SLIM RX0" />
+        <ctl name="SLIM_0_RX Channels" value="One" />
+        <ctl name="RX INT7_1 MIX1 INP0" value="RX0" />
+<!--	<ctl name="RX INT7_1 Digital Volume" value="84" /> -->
+		<ctl name="COMP7 Switch" value="1" />
+        <ctl name="SpkrLeft COMP Switch" value="1" />
+        <ctl name="SpkrLeft BOOST Switch" value="1" />
+        <ctl name="SpkrLeft VISENSE Switch" value="1" />
+        <ctl name="SpkrLeft SWR DAC_Port Switch" value="1" />
     </path>
 
     <path name="speaker-mono-2">
