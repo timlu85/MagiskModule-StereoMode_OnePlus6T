@@ -1,5 +1,6 @@
 # MagiskModule-StereoMode_OnePlus6T
 ## Description
+Make 6T earpiece become secondary Speaker (Auxiliary!)
 ## Changelog
 v1 First test release
 ## Requirements
@@ -9,6 +10,5 @@ v1 First test release
 * Alpha
 ## Changelog
 * v1 - selftest working ! 
-
 ## WIP (future)
 make earpiece quality good (optimizing)
