@@ -1,6 +1,6 @@
-id=stereomodeforOneplus6T
-name=StereoMode For OnePlus 6T
-version=v1.0
-versionCode=1
+id=DualSpeakerforOneplus6T
+name=DualSpeaker For OnePlus 6T
+version=v1.3
+versionCode=13
 author=timlu85
-description=MagiskModule StereoMode OnePlus6T
+description=Make 6T earpiece become secondary Speaker(Auxiliary!) & Experimental Fix for USB Audio Output

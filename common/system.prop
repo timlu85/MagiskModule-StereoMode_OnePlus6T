@@ -1,7 +1,8 @@
 # This file will be read by resetprop
 # Example: Change dpi
 # ro.sf.lcd_density=320
-# Change MediaSteps [Default]
+## Change MediaSteps [Default]
 # ro.config.media_vol_steps=30
+# ro.config.vc_call_vol_steps=14
 # audio.safemedia.bypass=true
-ro.config.vc_call_vol_steps=14
+## Vendor PROP

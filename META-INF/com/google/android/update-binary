@@ -1,12 +1,5 @@
 #!/sbin/sh
-# This is a dummy file that should be replaced with a proper installer script
 
-# If you are creating a module locally for personal usage or testing,
-# download the script in the following URL:
-# https://github.com/topjohnwu/Magisk/blob/master/scripts/module_installer.sh
-# And replace this script with the downloaded script
-
-# Error, this script should always be replaced
 TMPDIR=/dev/tmp
 MOUNTPATH=/dev/magisk_img
 
@@ -100,6 +93,8 @@ ui_print "******************************"
 rm -rf $MODPATH 2>/dev/null
 mkdir -p $MODPATH
 
+on_install
+
 # Remove placeholder
 rm -f $MODPATH/system/placeholder 2>/dev/null
 
@@ -134,8 +129,6 @@ $POSTFSDATA && cp -af $TMPDIR/post-fs-data.sh $MODPATH/post-fs-data.sh
 
 # service mode scripts
 $LATESTARTSERVICE && cp -af $TMPDIR/service.sh $MODPATH/service.sh
-
-on_install
 
 # Handle replace folders
 for TARGET in $REPLACE; do
