@@ -1,11 +1,11 @@
-# MagiskModule-StereoMode_OnePlus6T
+# [MagiskModule]StereoMode For OnePlus6T
 ## Description
-Make 6T earpiece become secondary Speaker (Auxiliary!)(TWO Channel!) 
-
+Make 6T earpiece become secondary Speaker (Auxiliary!) (TWO Channel!) 
 
 ## Requirements
 * Oneplus 6T
 * Oxygen OS Pie
+* Magisk v17.0+
 ## Version Status
 * beta 
 ```diff
