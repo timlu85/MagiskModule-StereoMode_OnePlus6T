@@ -1,6 +1,6 @@
-id=DualSpeakerforOneplus6T
-name=DualSpeaker For OnePlus 6T
-version=v1.3
-versionCode=13
+id=dualspeakerfor6t
+name=DualSpeaker For OnePlus 6T (Android Q)
+version=v1.0
+versionCode=10
 author=timlu85
-description=Make 6T earpiece become secondary Speaker(Auxiliary!) & Experimental Fix for USB Audio Output
+description=Make 6T Earpiece Become Secondary Speaker (Auxiliary!)

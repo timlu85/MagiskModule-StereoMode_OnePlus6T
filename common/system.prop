@@ -5,4 +5,9 @@
 # ro.config.media_vol_steps=30
 # ro.config.vc_call_vol_steps=14
 # audio.safemedia.bypass=true
-## Vendor PROP
+## Audio Tweak PROP (TEST)
+# af.fast_track_multiplier=1
+# vendor.audio.parser.ip.buffer.size=262144
+# aaudio.mmap_policy=2
+# aaudio.mmap_exclusive_policy=2
+# aaudio.hw_burst_min_usec=2000
